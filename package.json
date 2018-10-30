@@ -1,0 +1,23 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "Dronezone",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server \"src\" --files \"src\" --open \"external\" --no-notify --no-ghost-mode",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Julia-Dubenchuk/example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Julia-Dubenchuk/example/issues"
+  },
+  "homepage": "https://github.com/Julia-Dubenchuk/example#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}
